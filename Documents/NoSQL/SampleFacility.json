@@ -1,0 +1,20 @@
+{
+  "_id": {
+    "$oid": "6384aeb42313134173eed6d5"
+  },
+  "id": 1,
+  "name": "Some cool facility",
+  "type": "Park",
+  "closestaddress": "Best street 42",
+  "description": "This facility is really cool. No smoking, idiots",
+  "minterventions": [
+    {
+      "name": "Johnny Cage",
+      "date": "22-02-2022"
+    },
+    {
+      "name": "Frederick Douglass",
+      "date": "04-05-1849"
+    }
+  ]
+}

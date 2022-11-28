@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "6384b1652313134173eed6d9"
+  },
+  "id": 1,
+  "userName": "I am user",
+  "CPR": "1904994242",
+  "email": "sample@mail.com",
+  "phone": "04854213",
+  "type": "NonBuisiness",
+  "reservations": [
+    {
+      "name": "Some cool facility",
+      "timeslot": "23-03-2023: 16:00 - 18:30",
+      "participantCpr": [
+        "1910883322",
+        "2009854242"
+      ],
+      "note": "User booking this facility sucks. Sincerely - Gerald"
+    }
+  ]
+}
+
