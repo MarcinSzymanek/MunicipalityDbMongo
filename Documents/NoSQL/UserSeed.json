@@ -1,7 +1,6 @@
+
+[
 {
-  "_id": {
-    "$oid": "6384df312313134173eed6e1"
-  },
   "UserName": "I am user",
   "CPR": "1904994242",
   "Email": "sample@mail.com",
@@ -18,4 +17,18 @@
       "Note": "User booking this facility sucks. Sincerely - Gerald"
     }
   ]
+},
+
+{
+  "UserName": "George Washington",
+  "CPR": "2304694003",
+  "Email": "AmericaYeahYeYe@mail.com",
+  "Phone": "04854213",
+  "Type": "Buisiness",
+  "CVR" : "404",
+  "Reservations": [
+  ]
 }
+]
+
+
