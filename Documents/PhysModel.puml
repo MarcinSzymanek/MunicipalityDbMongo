@@ -1,0 +1,35 @@
+@@startuml
+entity User{
+
+    Email : varchar(100)
+    CPRnumber : varchar(10) <<PK>>
+    Username : varchar(30)
+    PhoneNumber : varchar(8)
+    UserCVR : int?
+}
+
+entity BuisinessUser{
+    BuisinessCVR : int
+    CPRNumber : varchar(10) <<FK>>
+}
+
+entity Reservation{
+    ReservationId : int <<PK>>
+    Res_Name : varchar(100)
+    Res_Notes : nvarchar(1000)
+    Res_DateTime : DateTime
+    Res_NoOfParticipants : int?
+}
+
+entity Facility{
+    FacilityId : int <<PK>>
+    FacClosestAddress : nvarchar(300)
+    Fac_Kind : Enum
+    Fac_Items : nvarchar(500)
+    Fac_Rules : nvarchar(500)
+}
+
+BuisinessUser -- User
+User ||-o{ Reservation
+Reservation ||-|| Facility 
+@@enduml
