@@ -3,6 +3,12 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace MongoDb.Models;
 
+public class BusinessUser : User
+{
+    [BsonElement]
+    public string CVR { get; set; }
+}
+
 public class User
 {
     
