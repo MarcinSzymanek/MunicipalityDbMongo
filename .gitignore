@@ -429,3 +429,6 @@ fabric.properties
 
 # Appsettingsfile
 EFCore/appsettings.js
+
+# Rider files
+.idea
