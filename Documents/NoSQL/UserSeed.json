@@ -31,4 +31,31 @@
 }
 ]
 
-
+{
+  "UserName": "Rowan Stefanovic",
+  "CPR": "3005891234",
+  "Email": "MrStefanovic@mail.com",
+  "Phone": "27927901",
+  "Type": "Buisiness",
+  "CVR" : "404",
+  "Reservations": [
+	{
+      "Name": "Parky Park",
+      "Timeslot": "31-12-2022: 19 - 23:59",
+      "ParticipantCpr": [
+        "1910883322",
+        "2009854242",
+		"0504030201"
+      ],
+      "Note": "How can you even reserve a park, anyway!?"
+    }
+	{
+      "Name": "Runners Palace",
+      "Timeslot": "20-03-2022: 18:00 - 18:30",
+      "ParticipantCpr": [
+        "1910883322"
+      ],
+      "Note": "Just wanted to experience being alone in the palace..."
+    }
+  ]
+}

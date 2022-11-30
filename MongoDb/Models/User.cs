@@ -3,15 +3,16 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace MongoDb.Models;
 
+[BsonDiscriminator("BusinessUser")]
 public class BusinessUser : User
 {
     [BsonElement]
     public string CVR { get; set; }
 }
 
+[BsonKnownTypes(typeof(BusinessUser))]
 public class User
 {
-    
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string ObjectId { get; set; }
