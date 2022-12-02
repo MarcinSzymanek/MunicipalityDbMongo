@@ -1,5 +1,4 @@
 
-[
 {
   "UserName": "I am user",
   "CPR": "1904994242",
@@ -18,19 +17,6 @@
     }
   ]
 },
-
-{
-  "UserName": "George Washington",
-  "CPR": "2304694003",
-  "Email": "AmericaYeahYeYe@mail.com",
-  "Phone": "04854213",
-  "Type": "Buisiness",
-  "CVR" : "404",
-  "Reservations": [
-  ]
-}
-]
-
 {
   "UserName": "Rowan Stefanovic",
   "CPR": "3005891234",
@@ -48,7 +34,7 @@
 		"0504030201"
       ],
       "Note": "How can you even reserve a park, anyway!?"
-    }
+    },
 	{
       "Name": "Runners Palace",
       "Timeslot": "20-03-2022: 18:00 - 18:30",
@@ -58,4 +44,16 @@
       "Note": "Just wanted to experience being alone in the palace..."
     }
   ]
+},
+{
+  "UserName": "George Washington",
+  "CPR": "2304694003",
+  "Email": "AmericaYeahYeYe@mail.com",
+  "Phone": "04854213",
+  "Type": "Buisiness",
+  "CVR" : "404",
+  "Reservations": [
+  ]
 }
+]
+

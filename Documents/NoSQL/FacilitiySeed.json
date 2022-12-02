@@ -1,0 +1,62 @@
+[
+{
+  "Type": "Park",
+  "ClosestAddress": "Best street 42",
+  "Description": "This facility is really cool. No smoking, idiots",
+  "Minterventions": [
+    {
+      "Date": "22-02-2022",
+      "Name": "Johnny Cage"
+    },
+    {
+      "Date": "04-05-1849",
+      "Name": "Frederick Douglass"
+    }
+  ],
+  "Name": "Some cool facility"
+},
+{
+  "Name": "Recreational Place Aarhus",
+  "Type": "Recreational",
+  "ClosestAddress": "React street 13",
+  "Description": "Reacreational reacting for the whole family!",
+  "Minterventions": [
+    {
+      "Name": "Frederick Douglass",
+      "Date": "04-05-1849"
+    }
+  ]
+},
+{
+  "Name": "Runners Palace",
+  "Type": "Recreational",
+  "ClosestAddress": "Palace street 14",
+  "Description": "We know you love running so we created this massive palace where you can run all day and night long baby.",
+  "Minterventions": [
+    {
+      "Date": "25-02-2022",
+      "Name": "Johnny Cage"
+    },
+    {
+      "Date": "06-05-1849",
+      "Name": "Frederick Douglass"
+    },
+    {
+      "Name": "MrInbetween",
+      "Date": "19-09-1999"
+    }
+  ]
+},
+{
+  "Name": "Parky Park",
+  "Type": "Park",
+  "ClosestAddress": "Green avenue 5",
+  "Description": "This park is just the parkiest",
+  "Minterventions": [
+    {
+      "Name": "Jim Butcher",
+      "Date": "13-05-2010"
+    }
+  ]
+}
+]
